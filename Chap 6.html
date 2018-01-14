@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			// Question 1:
+			var a = 10;
+			document.write( " Result:<br /> The value of a is: ");
+			document.write(a);
+			document.write("<br />");
+			document.write('<b>..............................................</b><br /><br />');
+			var a = ++a;
+			document.write("The value of ++a is: ");
+			document.write(a);
+			document.write("<br />");
+			document.write("Now the value of a is: ");
+			document.write(a);
+			document.write("<br /><br />");
+			var a = a++;
+			document.write("The value of a++ is: ");
+			document.write(a);
+			document.write("<br />");
+			var b = "12";			
+			document.write("Now The value of a is: ");
+			document.write(b);
+			document.write("<br /><br />");
+			document.write("The value of --a is: ");
+			var a = --b;			
+			document.write(a);
+			document.write("<br />");
+			document.write("Now the value of a is: " + a);
+			var a = a--;
+			document.write("<br /><br />");
+			document.write("The value of a-- is: " + a);
+			document.write("<br />");
+			a = --a;
+			document.write("Now the value of a is: "+ a);
+			// Question 1 Ended
+
+			// Question 2 Started:
+			document.write("<br /><br />")
+			document.write("-----------------------------------------------------------------------------------")
+			document.write("<br /><br />")
+			var a = 2 , b = 1;
+			document.write("a is "+ a);
+			document.write("<br />")
+			document.write("b is "+ b);
+			var result = --a - --b + ++b + b--;
+			document.write("<br />")
+			document.write(" result is "+ result);
+			// Question 2 Ended
+
+			// Question 3 Started
+			var name = prompt("Enter Your Name Please:" , "John");
+			// Question 3 Ended
+
+			// Question 5 Started
+			var t = 5;
+			var table = prompt("Write Any Number You Want:" , "" + t);
+			document.write("<br /><br /><br />");
+			// Question 5 Ended
+
+			// Question 6 Started
+			// Part a:
+			var sub1 = prompt("1st Subject Name" , "Math");
+			var sub2 = prompt("2nd Subject Name" , "Urdu");
+			var sub3 = prompt("3rd Subject Name" , "English");
+
+			// Part b:
+			var total = 200;
+
+			// Part c:
+			var sub1_obtained = prompt("Obtained marks of 1st Subject" , 120);
+
+			// Part d:
+			var sub2_obtained = prompt("Obtained marks of 2nd Subject" , 157);
+			var sub3_obtained = prompt("Obtained marks of 3rd Subject" , 99);
+
+			// Part e:
+			document.write("<b>Subject </b>");
+			document.write("&nbsp &nbsp");
+			document.write("<b>Total Marks </b>");
+			document.write("&nbsp &nbsp");
+			document.write("<b>Obtained Marks </b>");
+			document.write("&nbsp &nbsp");
+			document.write("<b>Percentaage</b>");
+			document.write("<br />");
+
+			// Subect 1
+			document.write(sub1);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(total);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub1_obtained);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub1_obtained/total*100);
+			document.write("%");
+			document.write("<br />");
+
+			// Subject 2
+			document.write(sub2);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(total);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub2_obtained);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub2_obtained/total*100);
+			document.write("%");
+			document.write("<br />");
+
+			// Subject 3
+			document.write(sub3);
+			document.write("&nbsp &nbsp &nbsp");
+			document.write(total);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub3_obtained);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(sub3_obtained/total*100);
+			document.write("%");
+			document.write("<br />");
+
+			// Total Marks Of All
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write(total+total+total);
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			document.write("376");
+			document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp");
+			// var per1 = sub1_obtained/total*100;
+			// var per2 = sub2_obtained/total*100;
+			// var per3 = sub3_obtained/total*100;
+			total = 600;
+			var total_per = sub1_obtained+sub2_obtained+sub3_obtained/total*100;
+			document.write(total_per);
+
+			// Question 6 Ended
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

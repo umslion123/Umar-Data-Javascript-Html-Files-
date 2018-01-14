@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+
+			// Question 1
+
+			// var city = prompt("Whats Your City Name ?");
+			// if (city === "Karachi"){
+			// 	alert ("Welcome To City Of Light !");
+			// }
+
+			// // Question 2
+
+			// var gender = prompt ("Type Your Gender (First Letter Should Be Capital) In the Given Field:");
+			// if(gender === "Male"){
+			// 	alert("Good Morning Sir");
+			// }
+			// else if(gender === "Female"){
+			// 	alert("Good Morning Ma'am");
+			// }
+
+			// // Question 3
+
+			// var red = prompt("Write the signal color which is used to stop the car");
+			// var yel = prompt("Write the signal color which is used to ready the car" , "Colour");
+			// var gre = prompt("Write the signal color which is used to order the car to move");
+			// document.write("<b>Signal color &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Message</b><br />" + red);
+			// document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Must stop <br />" + yel);
+			// document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ready to move <br />" + gre);
+			// document.write("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Move now");
+			
+			// // Question 4
+
+			// var fuel = prompt("Write The Fuel in the Car");
+			// if(fuel = fuel<0.25){
+			// 	alert("Please refill the fuel in your car");
+			// }
+			// // Question 5
+
+			// // Part a:
+			// var a = 4;
+			// if (++a === 5){
+			// alert("given condition for variable a is true");
+			// }
+			// document.write("<br /><br />A: Alert a Will run");
+			// // Part b:
+			// var b = 82;
+			// if (b++ === 83){
+			// alert("given condition for variable b is false");
+			// }
+			// document.write("<br />B: Alert b will not run");
+			// // Part c:
+			// var c = 12;
+			// if (c++ === 13){
+			// alert("condition 1 is false");
+			// }
+			// if
+			// (c === 13){
+			// alert("condition 2 is true");
+			// }
+			// if (++c < 14){
+			// alert("condition 3 is true");
+			// }
+			// if(c === 14){
+			// alert("condition 4 is true");
+			// }
+			// document.write("<br />C: Alert c condition 1 will not run");
+			// document.write("<br />C: Alert c condition 2 and 3 are true");
+			// // Part d:
+			// var materialCost = 20000;
+			// var laborCost = 2000;
+			// var totalCost = materialCost + laborCost;
+			// if (totalCost === laborCost + materialCost){
+			// alert("The cost equals");
+			// }
+			// document.write("<br />D: Alert d condition 1 will run");
+			// // Part e:
+			// document.write("<br />E: Alert e will not run");
+			// // Part f:
+			// document.write("<br />F: Alert f will not run");
+
+			// Question 6
+
+			// document.write("<h1>Marks Sheet</h1>");
+			// var total = 300;
+			// document.write("Total : " + total);
+			// document.write("<br />");
+			// var m_obt = parseInt(prompt("Write Your Total Marks Out Of 100 That You Gain"));
+			// document.write("Marks Obtained : " + m_obt + "<br />");
+			// var per = m_obt/total*100;
+			// document.write("Percentage : " + per + "%<br />");
+			// if(per>=80){
+			// 	document.write("Grade : A-1");
+			// 	document.write("<br />Remarks : Excellent");
+			// }
+			// else if(per>=70){
+			// 	document.write("Grade : A");
+			// 	document.write("<br />Remarks : Good");
+			// }
+			// else if(per>=60){
+			// 	document.write("Grade : B");
+			// 	document.write("<br />Remarks : You need to improve");
+			// }
+			// else if(per<60){
+			// 	document.write("Grade : F (Fail)");
+			// 	document.write("<br />Remarks : Soory");
+			// }
+
+			// Question 7
+
+			// var sec_num = 2;
+			// var guess = prompt("Whats The Secret Number!??");
+			// // Part a:
+			// if(guess==2){
+			// 	alert("Bingo! Correct answer");
+			// }
+			// else if(guess==1){
+			// 	alert("Close enough to the correct answer");
+			// }
+
+			// Question 8
+
+			// var div_3 = parseInt(prompt("Write Any Number Which s Divivsible by 3 (Till X 10)"));
+			// if (div_3==3|div_3==9|div_3==12|div_3==15|div_3==18|div_3==21|div_3==24|div_3==27|div_3==30){
+			// 	alert("Yes ........This can be divided by 3")
+			// }
+			// else {
+			// 	alert("Soory!!, This is Not Divisible By 3")
+			// }
+
+			// Question 9
+
+			// var num = parseInt(prompt("Write Any Number To Get And Odd Or Even Number"));
+			// if(num%2==0){
+			// 	document.write(num + " number is even")
+			// }
+			// else{
+			// 	document.write(num + " is odd");
+			// }
+
+			// Question 10
+
+			// var temp = parseInt(prompt("Write Todays Weather Temperature To Find That Its Cool Or Hot"));
+			// if(temp>=40){
+			// 	alert("It is too hot outside.");
+			// }
+			// else if(temp>=30){
+			// 	alert("The Weather today is Normal.");
+			// }
+			// else if(temp>=20){
+			// 	alert("Today’s Weather is cool.");
+			// }
+			// else if(temp>=10){
+			// 	alert("OMG! Today's Weather Is Cool");
+			// }
+
+			// Question 11
+
+			var first_num = parseInt(prompt("First Number :"));
+			var sec_num = parseInt(prompt("Second Number :"));
+			var oper = parseInt(prompt("Operation :"));
+			if (oper==="+"){
+				alert(first_num + sec_num);
+			}
+			else if(oper==="x"){
+				alert(first_num * sec_num);
+			}
+			else if(oper==="-"){
+				alert(first_num - sec_num);
+			}
+			else if(oper==="/"){
+				alert(first_num / sec_num);
+			}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
